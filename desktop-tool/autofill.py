@@ -91,7 +91,7 @@ def prompt_if_no_arguments(prompt: str) -> Union[str, bool]:
 )
 @click.option(
     "--exportpdf",
-    default=False,
+    default=True,
     help="Create a PDF export of the card images instead of creating a project with a printing site.",
     is_flag=True,
 )
